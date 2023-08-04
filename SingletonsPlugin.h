@@ -1,5 +1,5 @@
-#ifndef DOUBLETONSPLUGIN_H
-#define DOUBLETONSPLUGIN_H
+#ifndef SINGLETONSPLUGIN_H
+#define SINGLETONSPLUGIN_H
 
 #include "Plugin.h"
 #include "PluginProxy.h"
