@@ -16,7 +16,7 @@ void SingletonsPlugin::output(std::string file) {
    command += "export PATH=${CONDA_HOME}/bin/:${PATH}; ";
    command += "eval \"$(conda shell.bash hook)\"; ";
    command += "conda activate qiime2-2021.4; ";
-   command += "qiime diversity alpha --i-table "+inputfile+" --p-metric doubles --o-alpha-diversity "+file+"; unzip -jo "+file+" -d "+PluginManager::prefix()+"; ";
+   command += "qiime diversity alpha --i-table "+inputfile+" --p-metric singles --o-alpha-diversity "+file+"; unzip -jo "+file+" -d "+PluginManager::prefix()+"; ";
    command += "conda deactivate; ";
    command += "export PATH=${OLDPATH}";
  std::cout << command << std::endl;
