@@ -1,0 +1,2 @@
+Prefix plugins/Singletons/example/
+Plugin Singletons inputfile table.qza outputfile alpha_diversity.qza
